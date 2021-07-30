@@ -1,9 +1,9 @@
 import smtplib
-import os
 
-from_email = os.getenv("email")
-from_password = os.getenv("password")
-to_addrs = os.getenv("to_email")
+
+from_email = YOUR ORIGIN EMAIL ADDRESS
+from_password = ORIGIN EMAIL PASSWORD
+to_addrs = DESTINATION EMAIL ADDRESS
 
 
 class NotificationManager:
